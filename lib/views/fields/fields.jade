@@ -4,7 +4,10 @@ case Collection.getPathType(path)
     when 'checkbox'
         include ./checkbox
     when 'ref'
-        include ./ref
+        if doc.get(path)
+            include ./ref
+        else
+            include ./text
     when 'textarea'
         include ./textarea
     when 'array'
