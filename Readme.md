@@ -15,7 +15,7 @@ Sriracha is an Express app that can be mounted as middleware to any url in your 
 1. Install Sriracha:
 
   ```
-  npm install --save sriracha
+  npm install --save ajiteshr7/sriracha
   ```
 
 2. Include Sriracha in your express app and mount it to a url.
